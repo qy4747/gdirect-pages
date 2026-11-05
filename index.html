@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="gdirect is a personal desktop client for managing the owner's Google Drive, with a MyGo file-management interface.">
+  <title>gdirect — Personal Drive client</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="gdirect home"><span class="brand-mark" aria-hidden="true">g</span>gdirect</a>
+    <nav aria-label="Main navigation"><a href="privacy.html">Privacy policy</a><a href="https://github.com/qy4747/gdirect-pages">Project contact</a></nav>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="intro">
+      <p class="eyebrow">PERSONAL DESKTOP APPLICATION</p>
+      <h1 id="intro">Your files.<br>Your desktop.</h1>
+      <p class="lead">A personal installation of <strong>gdirect</strong> with a MyGo desktop interface for browsing and managing the owner's Google Drive.</p>
+      <p class="summary" lang="zh-CN">个人使用的 Google Drive 文件管理工具，基于 gdirect 与 MyGo。此站提供应用介绍及隐私说明。</p>
+      <a class="button" href="privacy.html">Read the privacy policy <span aria-hidden="true">→</span></a>
+    </section>
+    <section class="cards" aria-label="Application features">
+      <article><span class="number" aria-hidden="true">01</span><h2>Browse &amp; organize</h2><p>View files and folders, create folders, rename items, and move selected items to Google Drive's trash.</p></article>
+      <article><span class="number" aria-hidden="true">02</span><h2>Upload &amp; download</h2><p>Transfer files chosen by the user and save downloads to a local folder. Show transfer progress and local file locations.</p></article>
+      <article><span class="number" aria-hidden="true">03</span><h2>Remember locally</h2><p>Keep folder listings, favorites, settings, and local file locations on the user's computer for convenient return visits.</p></article>
+    </section>
+    <section class="note" aria-labelledby="access">
+      <h2 id="access">Why Google Drive access is requested</h2>
+      <p>The application requests the Google Drive scope <code>https://www.googleapis.com/auth/drive</code> so it can browse existing files and perform the upload, download, creation, rename, and trash operations selected by its owner. This scope permits broad access to the authorized Drive; access can be revoked in the owner's Google Account.</p>
+      <p>This OAuth application is maintained by <a href="https://github.com/qy4747">qy4747</a> for personal use. It uses the open-source <a href="https://github.com/mizorewww/gdirect">gdirect project</a> and a custom MyGo interface. It is not an official Google product or the upstream gdirect project's website.</p>
+    </section>
+  </main>
+  <footer class="wrap site-footer"><span>gdirect · Personal use</span><a href="privacy.html">Privacy policy</a><a href="https://github.com/qy4747/gdirect-pages/issues">Contact the maintainer</a></footer>
+</body>
+</html>
